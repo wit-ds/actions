@@ -6,7 +6,7 @@ inputs:
     default: 'Home Assistant'
   email:
     required: true
-    default: 'hello@home-assistant.io'
+    default: 'hello@wit-ds.io'
   token:
     required: true
 runs:

@@ -19,7 +19,7 @@ WORKDIR "/github/workspace"
 ENTRYPOINT ["/entrypoint.sh"]
 
 LABEL "name"="hassfest"
-LABEL "maintainer"="WIT DS <hello@home-assistant.io>"
+LABEL "maintainer"="WIT DS <hello@wit-ds.io>"
 LABEL "version"="1.1"
 
 LABEL "com.github.actions.name"="hassfest"

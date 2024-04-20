@@ -1,4 +1,4 @@
 {
-	"name": "home-assistant/actions",
+	"name": "wit-ds/actions",
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye"
 }

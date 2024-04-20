@@ -6,7 +6,7 @@ GitHub Actions and helper for Home Assistant workflows
 
 _Run hassfest to validate standalone integration repositories._
 
-**action**: `home-assistant/actions/hassfest@master`
+**action**: `wit-ds/actions/hassfest@master`
 
 example implementation:
 
@@ -24,7 +24,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
         - uses: "actions/checkout@v4"
-        - uses: "home-assistant/actions/hassfest@master"
+        - uses: "wit-ds/actions/hassfest@master"
 ```
 
 This will run the `hassfest` action on every push and pull request to all branches, as well as every midnight.
